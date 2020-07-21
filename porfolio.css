@@ -1,110 +1,90 @@
-
 /*general styles*/
-body{
-  background:beige;
-  background:white;
-  padding:0 10%;
-
-}
-
-
-
-
-/* layout styles*/
 
 header{
-  background-color: #2f2c2c;
-  height:300px;
-  width:860px;
-  margin-left:20%;
+  height:200px;
+  width:1200px;
+  margin: auto;
   background: linear-gradient(45deg,#585a5a, transparent 80%),  url("header.png");
-  background-position: center ;
- 
- 
+  background-position: center;
+}
+.logo{
+  padding:5px 10px;
 
 }
-h1{
-  font-family:cursive, Arial, Helvetica, sans-serif; 
-  
-}
+
 h1,h2{
   padding:10px 20px;
   color:white;
-}
-.main-div{
-  /* display:inline-block; */
-  font-size:1.5em;
-  color:white;
-  list-style-type: none;
-  text-decoration: none;
-  
-
-}
-.main-content{
-   text-align:center;
+  font-family:cursive, Arial, Helvetica, sans-serif;  
 }
 h3{
+  text-align:center;
+}
+nav ul{
+ display:flex;
+ margin:0 50px;
+ padding:5px 10px;
+ justify-content:space-around;
+}
+h3
+{
   line-height: 2em;
   font-family: cursive;
   font-size: 1.5em;
-  align-text:center;
+  text-align:center;
 }
-
-
-img{
-  border-radius: 100%;
-  border-style:solid;
-  border-width: 100px;
-  width:150px;
-  height:150px;}
+/* intro section styles */
 .prof-image{
-  width: 150px;
-  /* height: 150px; */
-  border-bottom:#2f2c2c;
+  height: 400px;
+  border: 10px double orangered;
+  border-radius: 40%;
   text-align:left;
-  padding-top: 80px;
 }
-
-/* .prof-image{
-  padding-top: 20px;
-  padding-left:500px;
-  display:inline-block; */
- 
-p.div{
-   background: linear-gradient(45deg, #4ec7d2, transparent);
-    height: 112px;
-    font-size: xxx-large;
-    font-family: cursive;
-    font-color: white;
+.intro{
+font-size:1.5em;
+line-height: 1.5;
+font-family: monospace;
+text-align:center;
+margin: 20px 50px;
 }
-
-
+/* about-me and closing section styles */
+.partition p{
+text-align:center;
+font-size:2em;
+background:linear-gradient(rgb(140, 186, 229),white 120%);
+margin:0 auto;
 }
-.color-test{
-  background: linear-gradient(45deg, #4ec7d2, transparent);
-  height: 112px;
-  font-size: xxx-large;
-  font-color: white; 
+div{
+text-align:center; /*later create 't-borders' and add img's and p's  */
+}
+div p{
+  padding:0 33%;
 }
 .interest-section{
-  margin:100px auto;
+  margin: auto;
   text-align:center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .interest-image{
   width:33%;
   display:inline-block;
 }
 .interest-pic{
- height:150px; 
+ height:100px;
+ margin:0 20px;
 }
-
-
-    
-        
-        
-      
-     
-  
-
-   
+a:link{
+  color:orangered;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+color:orange;
+}
+.list-opening, .closing{
+  font-size: 2em;
+  font-family:cursive;
+  text-align:center;
+  list-style-position: inside;
+}
